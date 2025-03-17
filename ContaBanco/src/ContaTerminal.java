@@ -11,12 +11,12 @@ public class ContaTerminal {
         int numero = scanner.nextInt();
 
         System.out.println("Por favor, digite o número da Agência:");
-        String agencia = scanner.next(); // Usa next() para capturar texto
+        String agencia = scanner.next();
 
         scanner.nextLine();
 
         System.out.println("Por favor, digite o Nome do Cliente:");
-        String nomeCliente = scanner.nextLine(); // Usa nextLine() para capturar texto completo
+        String nomeCliente = scanner.nextLine();
 
         System.out.println("Por favor, digite o Saldo:");
         double saldo = scanner.nextDouble();
